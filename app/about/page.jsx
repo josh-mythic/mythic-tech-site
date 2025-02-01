@@ -28,7 +28,7 @@ export default function AboutPage() {
           </p>
           <br />
           <p>
-            Our commitment to quality and creativity drives us to exceed expectations every time. Whether you're looking for a complete digital transformation or a specific solution to elevate your brand, we're here to make your brand legendary.
+            Our commitment to quality and creativity drives us to exceed expectations every time. Whether you&apos;re looking for a complete digital transformation or a specific solution to elevate your brand, we&apos;re here to make your brand legendary.
           </p>
           <br />
           <p>
