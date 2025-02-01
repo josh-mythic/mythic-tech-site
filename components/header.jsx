@@ -5,8 +5,8 @@ import githubLogo from 'public/images/github-mark-white.svg';
 
 const navItems = [
     { linkText: 'Home', href: '/' },
-    { linkText: 'About', href: '/image-cdn' },
-    { linkText: 'Portfolio', href: '/edge' }
+    { linkText: 'About', href: '/about' },
+    { linkText: 'Portfolio', href: '/portfolio' }
 ];
 
 // const navItems = [
@@ -45,7 +45,7 @@ export function Header() {
             )}
             <div className="flex-grow justify-end hidden lg:flex lg:mr-1">
                 <Link
-                    href="https://github.com/netlify-templates/next-platform-starter"
+                    href="/contact"
                     className="inline-block no-underline px-4 py-2 border border-primary rounded-full text-primary-content transition duration-200 hover:bg-primary hover:border-secondary-content hover:text-secondary-content uppercase"
                 >
                     Contact
