@@ -13,9 +13,9 @@ export function BannerSection() {
         }}
       />
       {/* Button Cutout */}
-      <div className="absolute bottom-0 right-0 w-fit flex group items-start">
+      <div className="absolute bottom-0 right-0 w-fit flex items-start group">
         <button
-          className="relative z-10 border-2 border-primary rounded-tl-xl rounded-br-xl text-primary text-lg  font-bold px-8 py-4 text-left bg-secondary transition duration-200 group-hover:bg-secondary group-hover:text-primary-content group-hover:bg-primary font-heading"
+          className="relative z-10 border-2 border-primary rounded-tl-xl rounded-br-xl text-primary text-lg  font-bold px-8 py-4 text-left bg-secondary transition duration-200 group-hover:text-primary-content group-hover:bg-primary font-heading"
         >
           LET US MAKE YOUR <br /> BRAND LEGENDARY
           <span className="ml-4 inline-flex items-center justify-center bg-secondary text-primary rounded-full w-10 h-10 transition duration-200 group-hover:text-primary-content group-hover:bg-primary" >
