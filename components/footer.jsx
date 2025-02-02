@@ -19,8 +19,8 @@ export function Footer() {
           />
           <p className="mt-4 text-sm">
             <FontAwesomeIcon icon={faEnvelope} size="lg" className="pr-3" />
-            <a href="mailto:josh@mythic-tech.com" className="underline hover:opacity-80 uppercase">
-              josh@mythic-tech.com
+            <a href="mailto:info@mythic-tech.com" className="underline hover:opacity-80 uppercase">
+              info@mythic-tech.com
             </a>
           </p>
           {/*
@@ -48,8 +48,8 @@ export function Footer() {
               </Link>
             </li>
             <li>
-              <Link href="/portfolio" className="no-underline font-bold hover:text-secondary uppercase">
-                Portfolio
+              <Link href="/services" className="no-underline font-bold hover:text-secondary uppercase">
+                Services
               </Link>
             </li>
             <li>
