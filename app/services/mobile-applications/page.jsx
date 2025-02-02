@@ -39,7 +39,7 @@ export default function MobileApplicationsPage() {
             At Mythic Technology, our Mobile Applications services are designed to create intuitive, high-performance apps that drive engagement and conversion. We combine cutting-edge technology with sleek design to build applications that work seamlessly across all devices.
           </p>
           <p>
-            Whether you're looking to launch a new app or reinvent your mobile strategy, our expert team tailors solutions to elevate your brand and deliver measurable results.
+            Whether you&apos;re looking to launch a new app or reinvent your mobile strategy, our expert team tailors solutions to elevate your brand and deliver measurable results.
           </p>
           <p>
             Explore our innovative approach to mobile development and see how we can help your business stand out in the digital landscape.
