@@ -19,7 +19,7 @@ export function Footer() {
           />
           <p className="mt-4 text-sm">
             <FontAwesomeIcon icon={faEnvelope} size="lg" className="pr-3" />
-            <a href="mailto:josh@mythic-tech.com" className="underline hover:opacity-80">
+            <a href="mailto:josh@mythic-tech.com" className="underline hover:opacity-80 uppercase">
               josh@mythic-tech.com
             </a>
           </p>
@@ -35,25 +35,25 @@ export function Footer() {
 
         {/* Column 2: Links Group */}
         <div className="flex flex-col items-center">
-          <h3 className="mb-4 font-heading font-bold text-2xl">Links</h3>
+          <h3 className="mb-4 font-heading font-bold text-2xl uppercase">Links</h3>
           <ul className="grid grid-cols-2 gap-y-2 gap-x-4">
             <li>
-              <Link href="/" className="no-underline font-bold hover:text-secondary">
+              <Link href="/" className="no-underline font-bold hover:text-secondary uppercase">
                 Home
               </Link>
             </li>
             <li>
-              <Link href="/about" className="no-underline font-bold hover:text-secondary">
+              <Link href="/about" className="no-underline font-bold hover:text-secondary uppercase">
                 About
               </Link>
             </li>
             <li>
-              <Link href="/portfolio" className="no-underline font-bold hover:text-secondary">
+              <Link href="/portfolio" className="no-underline font-bold hover:text-secondary uppercase">
                 Portfolio
               </Link>
             </li>
             <li>
-              <Link href="/contact" className="no-underline font-bold hover:text-secondary">
+              <Link href="/contact" className="no-underline font-bold hover:text-secondary uppercase">
                 Contact
               </Link>
             </li>
@@ -62,7 +62,7 @@ export function Footer() {
 
         {/* Column 3: Socials Group */}
         <div className="flex flex-col items-center">
-          <h3 className="mb-4 font-heading font-bold text-2xl">Socials</h3>
+          <h3 className="mb-4 font-heading font-bold text-2xl uppercase">Socials</h3>
           <ul className="flex justify-center space-x-4">
             <li>
               <Link

@@ -1,12 +1,12 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import mythicLogo from 'public/mythic-logo-stacked-alabaster.svg';
-import githubLogo from 'public/images/github-mark-white.svg';
 
 const navItems = [
     { linkText: 'Home', href: '/' },
     { linkText: 'About', href: '/about' },
-    { linkText: 'Portfolio', href: '/portfolio' }
+    { linkText: 'Services', href: '/services' }
+    //{ linkText: 'Portfolio', href: '/portfolio' }
 ];
 
 // const navItems = [

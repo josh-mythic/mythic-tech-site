@@ -4,7 +4,8 @@ import { RandomQuote } from 'components/random-quote';
 import { Markdown } from 'components/markdown';
 import { ContextAlert } from 'components/context-alert';
 import { getNetlifyContext } from 'utils';
-import { BannerSection } from 'components/BannerSection';
+import { BannerSection } from 'components/banner-section';
+import { ServicesList } from 'components/services-list';
 
 const cards = [
     //{ text: 'Hello', linkText: 'someLink', href: '/' }
@@ -32,9 +33,15 @@ export default function Page() {
     return (
         <main className="flex flex-col gap-8 sm:gap-16">
             <section className="flex flex-col gap-4 m-0 rounded-xl overflow-hidden relative shadow-lg">
-                <BannerSection />
+                <BannerSection
+                    backgroundImage="/images/mythic-banner.jpg"
+                    buttonContent={<> LET US MAKE YOUR <br /> BRAND LEGENDARY</>}
+                    buttonLink="/contact"
+                />
             </section>
-
+            <section className="flex flex-col gap-4 m-0 relative">
+                <ServicesList />
+            </section>
             {/* <section className="flex flex-col items-start gap-3 sm:gap-4">
                 <ContextAlert />
                 <h1 className="mb-0">Welcome to Mythic Technology</h1>
