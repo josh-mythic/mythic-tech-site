@@ -8,7 +8,7 @@ export function Footer() {
   return (
     <footer className="bg-primary text-quaternary">
       {/* Main Content: Three Columns */}
-      <div className="container mx-auto px-4 py-16 sm:py-24 grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
+      <div className="container mx-auto py-16 sm:py-24 grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
         {/* Column 1: Logo & Contact */}
         <div className="flex flex-col items-center">
           <Image
@@ -99,11 +99,11 @@ export function Footer() {
       </div>
 
       {/* Lower Section: Separator & Copyright */}
-      <div className="container mx-auto px-4">
-        <div className="border-t border-gray-300 pt-4 mt-8">
+      <div className="container mx-auto pb-4 align-middle">
+        <div className="border-t border-tertiary pt-4 mt-8">
           <p className="text-center text-xs">
             © 2024 Mythic Technology LLC. All Rights Reserved. |{" "}
-            <Link href="/privacy" className="underline hover:opacity-80 font-bold no-underline">
+            <Link href="/privacy" className="underline hover:text-secondary font-bold no-underline">
               Privacy Policy
             </Link>
           </p>
