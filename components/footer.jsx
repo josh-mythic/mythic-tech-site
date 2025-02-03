@@ -36,7 +36,7 @@ export function Footer() {
         {/* Column 2: Links Group */}
         <div className="flex flex-col items-center">
           <h3 className="mb-4 font-heading font-bold text-2xl uppercase">Links</h3>
-          <ul className="grid grid-cols-2 gap-y-2 gap-x-4">
+          <ul className="grid grid-cols-2 gap-y-2 gap-x-4 text-left">
             <li>
               <Link href="/" className="no-underline font-bold hover:text-secondary uppercase">
                 Home
@@ -102,7 +102,7 @@ export function Footer() {
       <div className="container mx-auto pb-4 align-middle">
         <div className="border-t border-tertiary pt-4 mt-8">
           <p className="text-center text-xs">
-            © 2024 Mythic Technology LLC. All Rights Reserved. |{" "}
+            © 2025 Mythic Technology LLC. All Rights Reserved. |{" "}
             <Link href="/privacy" className="underline hover:text-secondary font-bold no-underline">
               Privacy Policy
             </Link>

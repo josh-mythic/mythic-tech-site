@@ -32,8 +32,8 @@ export function ContactForm() {
   };
 
   return (
-    <div className="w-full md:max-w-lg">
-      <Card title="Contact Us">
+    <div className="w-full">
+      <Card>
         <form
           name="contact"
           method="POST"
@@ -45,7 +45,7 @@ export function ContactForm() {
           <input type="hidden" name="form-name" value="contact" />
 
           <div className="flex flex-col">
-            <label htmlFor="name" className="font-bold text-primary mb-1">Name</label>
+            <label htmlFor="name" className="font-bold text-primary-content mb-1">Name</label>
             <input 
               type="text" 
               name="name" 
@@ -57,7 +57,7 @@ export function ContactForm() {
           </div>
 
           <div className="flex flex-col">
-            <label htmlFor="email" className="font-bold text-primary mb-1">Email</label>
+            <label htmlFor="email" className="font-bold text-primary-content mb-1">Email</label>
             <input 
               type="email" 
               name="email" 
@@ -69,7 +69,7 @@ export function ContactForm() {
           </div>
 
           <div className="flex flex-col">
-            <label htmlFor="message" className="font-bold text-primary mb-1">Message</label>
+            <label htmlFor="message" className="font-bold text-primary-content mb-1">Message</label>
             <textarea 
               name="message" 
               id="message" 
