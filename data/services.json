@@ -1,27 +1,26 @@
 [
-    {
-      "title": "Web Development",
-      "description": "Modern, responsive, and high-performance websites built with cutting edge technology",
-      "icon": "code",
-      "link": "/services/web-development"
-    },
-    {
-      "title": "Mobile Applications",
-      "description": "Engaging mobile apps that deliver seamless user experiences across devices.",
-      "icon": "mobile-alt",
-      "link": "/services/mobile-applications"
-    },
-    {
-      "title": "UI/UX Design",
-      "description": "Creative design solutions that make your brand stand out and deliver exceptional experiences.",
-      "icon": "palette",
-      "link": "/services/ui-ux-design"
-    },
-    {
-      "title": "Digital Marketing",
-      "description": "Tailored strategies to enhance your online presence and drive business growth.",
-      "icon": "chart-line",
-      "link": "/services/digital-marketing"
-    }
-  ]
-  
+  {
+    "title": "Web Development",
+    "description": "Modern, responsive, and high-performance websites built with cutting edge technology",
+    "icon": "code",
+    "link": "/services/web-development"
+  },
+  {
+    "title": "Mobile Applications",
+    "description": "Engaging mobile apps that deliver seamless user experiences across devices.",
+    "icon": "mobile-alt",
+    "link": "/services/mobile-applications"
+  },
+  {
+    "title": "UI/UX Design",
+    "description": "Creative design solutions that make your brand stand out and deliver exceptional experiences.",
+    "icon": "palette",
+    "link": "/services/ui-ux-design"
+  },
+  {
+    "title": "Digital Marketing",
+    "description": "Tailored strategies to enhance your online presence and drive business growth.",
+    "icon": "chart-line",
+    "link": "/services/digital-marketing"
+  }
+]
