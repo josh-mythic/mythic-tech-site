@@ -37,6 +37,7 @@ export function ContactForm() {
         <form
           name="contact"
           method="POST"
+          data-netlify-recaptcha="true"
           data-netlify="true"
           onSubmit={handleFormSubmit}
           className="text-black flex flex-col gap-4"
