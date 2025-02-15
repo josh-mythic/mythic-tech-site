@@ -1,0 +1,21 @@
+[
+    {
+      "title": "Embracing Modern Web Development",
+      "excerpt": "Discover how modern frameworks like Next.js and Tailwind CSS are reshaping the web development landscape.",
+      "image": "/images/article1.jpg",
+      "link": "/blog/embracing-modern-web-development"
+    },
+    {
+      "title": "Designing for Engagement",
+      "excerpt": "Learn the secrets to creating engaging user interfaces that captivate your audience.",
+      "image": "/images/article2.jpg",
+      "link": "/blog/designing-for-engagement"
+    },
+    {
+      "title": "The Future of Digital Marketing",
+      "excerpt": "Explore emerging trends and strategies that are setting new benchmarks in digital marketing.",
+      "image": "/images/article3.jpg",
+      "link": "/blog/future-of-digital-marketing"
+    }
+  ]
+  

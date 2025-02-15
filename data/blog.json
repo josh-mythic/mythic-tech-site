@@ -1,0 +1,20 @@
+[
+    {
+      "title": "How to Build a Modern Web App",
+      "excerpt": "Learn the secrets to building a modern web application using Next.js and Tailwind CSS. Discover best practices, performance optimizations, and design tips to create a seamless user experience.",
+      "image": "/images/blog1.jpg",
+      "slug": "how-to-build-a-modern-web-app"
+    },
+    {
+      "title": "Design Principles for UX",
+      "excerpt": "Discover key design principles that ensure your digital experiences are intuitive and engaging. From layout to color theory, learn how to craft interfaces that delight users.",
+      "image": "/images/blog2.jpg",
+      "slug": "design-principles-for-ux"
+    },
+    {
+      "title": "The Future of Digital Marketing",
+      "excerpt": "Explore emerging trends in digital marketing and how they can impact your business. Learn strategies that combine creativity with data-driven insights for success.",
+      "image": "/images/blog3.jpg",
+      "slug": "future-of-digital-marketing"
+    }
+  ]

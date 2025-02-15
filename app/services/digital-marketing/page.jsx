@@ -1,31 +1,33 @@
 import Image from 'next/image';
+import { BannerSection } from 'components/banner-section';
+import { Testimonials } from 'components/testimonials';
+import { RichContentSection } from 'components/rich-content-section';
 
 export default function DigitalMarketingPage() {
   return (
     <main className="container mx-auto px-4 py-16">
-      <h1 className="text-6xl font-heading font-bold text-center mb-8">
-        Digital Marketing
-      </h1>
-      <div className="mb-8 flex justify-center">
-        <Image 
-          src="/images/digital-marketing.jpg" // Replace with your actual image path
-          alt="Digital Marketing"
-          width={800}
-          height={450}
-          className="rounded-lg shadow-lg object-cover"
-        />
-      </div>
-      <section className="prose max-w-4xl mx-auto text-lg">
-        <p>
-          Our Digital Marketing services are designed to boost your online presence and drive measurable business growth. We craft tailored strategies that encompass SEO, social media, content marketing, and paid advertising to reach your target audience effectively.
-        </p>
-        <p>
-          By combining creative storytelling with data-driven insights, we ensure that every campaign is optimized for success.
-        </p>
-        <p>
-          <strong>Contact us</strong> today to discuss how our digital marketing expertise can elevate your brand.
-        </p>
+      <section className="flex flex-col gap-4 m-0 rounded-xl overflow-hidden relative shadow-lg">
+      <BannerSection
+        backgroundImage="/images/digital-marketing.jpg"
+        buttonContent={<>YOUR MARKET IS <br /> OUR QUEST</>}
+        buttonLink="/contact"
+        headerText="Digital Marketing Excellence"
+      />
       </section>
+      {/* <Testimonials /> */}
+      <RichContentSection
+        header="Digital Marketing That Delivers"
+        paragraphs={[
+          "Our Digital Marketing services are designed to boost your online presence and drive measurable business growth.",
+          "We blend creative storytelling with data-driven insights to craft campaigns that captivate and convert your target audience.",
+          "From SEO to social media advertising, our tailored strategies help you stand out in a competitive digital landscape."
+        ]}
+        imageSrc="/images/digital-marketing.jpg"
+        imageAlt="Digital Marketing"
+        imagePosition="left"
+        buttonText="Contact Us Today"
+        buttonLink="/contact"
+      />
     </main>
   );
 }
